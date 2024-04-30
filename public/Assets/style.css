@@ -1,0 +1,61 @@
+/* Login */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login {
+    z-index: 1;
+    background-color: #FFFAFA;
+    padding: 50px 150px;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Responsive */
+
+@media screen (max-width: 450px) {
+    .card-form {
+        width: 100%;
+    }
+
+    .login {
+        z-index: 1;
+        background-color: #fff;
+
+    }
+}
+
+/* End Login */
+
+
+/* Dashboard */
+
+#sidebar {
+    background-color: #FFFAFA;
+}
+
+
+/* Home */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
